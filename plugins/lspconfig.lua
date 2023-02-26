@@ -7,6 +7,7 @@ local servers = {
   "html",
   "cssls",
   "tsserver",
+  "emmet_ls",
   "eslint",
   "jsonls",
   "sqlls",
