@@ -42,6 +42,11 @@ local plugins = {
     end,
   },
 
+  -- markdown preview
+  ["iamcco/markdown-preview.nvim"] = {
+    ft = { "markdown" },
+    run = "cd app && yarn install"
+  }
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
 }
