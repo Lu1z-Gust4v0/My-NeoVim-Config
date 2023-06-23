@@ -20,36 +20,15 @@ return {
     end,
   },
 
-  -- overrde plugin configs
+  -- override plugin configs
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = {
-      ensure_installed = { "vim", "lua", "html", "css", "javascript", "c" }
-    }
+    opts = overrides.treesitter,
   },
 
   {
     "williamboman/mason.nvim",
-     opts = {
-      ensure_installed = {
-        "lua-language-server",
-        "stylua",
-        "html-lsp",
-        "css-lsp",
-        "typescript-language-server",
-        "deno",
-        "emmet-ls",
-        "eslint-ls",
-        "json-lsp",
-        "marksman",
-        "sqlls",
-        "tailwindcss-language-server",
-        "prisma-language-server",
-        "python-language-server",
-        "rust-analyzer",
-        "clangd",
-      }
-     },
+    opts = overrides.mason,
   },
 
   {
