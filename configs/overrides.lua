@@ -7,6 +7,7 @@ M.treesitter = {
     "lua",
     "html",
     "css",
+    "python",
     "javascript",
     "typescript",
     "tsx",
@@ -33,7 +34,7 @@ M.mason = {
     "sqlls",
     "tailwindcss-language-server",
     "prisma-language-server",
-    "python-language-server",
+    "python-lsp-server",
     "rust-analyzer",
     "clangd",
    }
