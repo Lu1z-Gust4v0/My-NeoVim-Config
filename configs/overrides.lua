@@ -12,6 +12,7 @@ M.treesitter = {
     "typescript",
     "tsx",
     "c",
+    "go",
     "markdown",
     "markdown_inline"
   },
@@ -37,6 +38,7 @@ M.mason = {
     "python-lsp-server",
     "rust-analyzer",
     "clangd",
+    "gopls"
    }
 }
 

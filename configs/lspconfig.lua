@@ -17,7 +17,8 @@ local servers = {
   "pylsp",
   "rust_analyzer",
   "clangd",
-  "prismals"
+  "prismals",
+  "gopls"
 }
 
 for _, lsp in ipairs(servers) do
