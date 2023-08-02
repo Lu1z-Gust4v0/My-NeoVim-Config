@@ -9,6 +9,7 @@ local sources = {
   formatting.stylua,
   formatting.clang_format,
   lint.prettier,
+  lint.revive,
 }
 
 null_ls.setup {
