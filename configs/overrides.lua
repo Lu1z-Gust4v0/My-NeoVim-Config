@@ -38,7 +38,10 @@ M.mason = {
     "python-lsp-server",
     "rust-analyzer",
     "clangd",
-    "gopls"
+    "gopls",
+    "black",
+    "revive",
+    "golangci-lint",
    }
 }
 

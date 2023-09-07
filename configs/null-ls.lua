@@ -8,8 +8,10 @@ local sources = {
   formatting.prettier.with { filetypes = { "html", "markdown", "css" } }, -- so prettier works only on these filetypes
   formatting.stylua,
   formatting.clang_format,
+  formatting.black,
   lint.prettier,
   lint.revive,
+  lint.golangci_lint,
 }
 
 null_ls.setup {
