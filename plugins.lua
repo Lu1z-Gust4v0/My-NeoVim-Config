@@ -44,7 +44,12 @@ return {
       require("better_escape").setup()
     end,
   },
-
+  {
+    "lukas-reineke/lsp-format.nvim",
+    config = function()
+      require("lsp-format").setup()
+    end,
+  },
   -- markdown preview
   {
     "iamcco/markdown-preview.nvim",
