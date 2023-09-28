@@ -5,6 +5,10 @@ M.general = {
   n = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
   },
+  v = {
+    ["<A-k>"] = { ":m '<-2<CR>gv=gv", "Move line up" },
+    ["<A-j>"] = { ":m '>+1<CR>gv=gv", "Move line down" },
+  },
 }
 
 M.mdpreview = {
@@ -14,8 +18,8 @@ M.mdpreview = {
   },
 
   i = {
-    ["<A-p>"] = {"<cmd> MarkdownPreview<CR>" },
-    ["<A-x>"] = {"<cmd> MarkdownPreviewStop<CR>" },
+    ["<A-p>"] = { "<cmd> MarkdownPreview<CR>" },
+    ["<A-x>"] = { "<cmd> MarkdownPreviewStop<CR>" },
   },
 }
 
