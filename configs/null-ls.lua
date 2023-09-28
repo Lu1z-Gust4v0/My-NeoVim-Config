@@ -10,6 +10,7 @@ local sources = {
   formatting.clang_format,
   formatting.black,
   formatting.gofmt,
+  formatting.csharpier,
   lint.prettier,
   lint.revive,
   lint.golangci_lint,

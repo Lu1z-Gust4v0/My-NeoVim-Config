@@ -13,6 +13,7 @@ M.treesitter = {
     "tsx",
     "svelte",
     "c",
+    "c_sharp",
     "go",
     "markdown",
     "markdown_inline"
@@ -41,6 +42,7 @@ M.mason = {
     "python-lsp-server",
     "rust-analyzer",
     "clangd",
+    "csharp-ls",
     "gopls",
     "black",
     "revive",

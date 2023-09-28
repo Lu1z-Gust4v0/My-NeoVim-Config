@@ -18,7 +18,8 @@ local servers = {
   "rust_analyzer",
   "clangd",
   "prismals",
-  "gopls"
+  "gopls",
+  "csharp-ls"
 }
 
 local on_attach = function(client, bufnr)
