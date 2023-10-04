@@ -19,7 +19,7 @@ local servers = {
   "clangd",
   "prismals",
   "gopls",
-  "csharp-ls"
+  "csharp_ls"
 }
 
 local on_attach = function(client, bufnr)

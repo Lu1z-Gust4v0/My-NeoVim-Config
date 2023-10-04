@@ -42,7 +42,7 @@ M.mason = {
     "python-lsp-server",
     "rust-analyzer",
     "clangd",
-    "csharp-ls",
+    "csharp-language-server",
     "gopls",
     "black",
     "revive",
