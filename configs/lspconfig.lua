@@ -19,7 +19,9 @@ local servers = {
   "clangd",
   "prismals",
   "gopls",
-  "csharp_ls"
+  "csharp_ls",
+  "java_language_server",
+  "kotlin_language_server"
 }
 
 local on_attach = function(client, bufnr)

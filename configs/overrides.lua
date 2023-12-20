@@ -16,7 +16,9 @@ M.treesitter = {
     "c_sharp",
     "go",
     "markdown",
-    "markdown_inline"
+    "markdown_inline",
+    "java",
+    "kotlin"
   },
   ident = {
     enable = true,
@@ -47,6 +49,8 @@ M.mason = {
     "black",
     "revive",
     "golangci-lint",
+    "java-language-server",
+    "kotlin-language-server"
    }
 }
 
