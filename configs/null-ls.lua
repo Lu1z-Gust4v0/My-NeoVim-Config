@@ -11,6 +11,8 @@ local sources = {
   formatting.black,
   formatting.gofmt,
   formatting.csharpier,
+  formatting.ktlint,
+  lint.ktlint,
   lint.prettier,
   lint.revive,
   lint.golangci_lint,

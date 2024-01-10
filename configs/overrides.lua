@@ -50,7 +50,8 @@ M.mason = {
     "revive",
     "golangci-lint",
     "java-language-server",
-    "kotlin-language-server"
+    "kotlin-language-server",
+    "ktlint"
    }
 }
 
